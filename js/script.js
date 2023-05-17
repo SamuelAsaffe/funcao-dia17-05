@@ -31,3 +31,18 @@ function celcius() {
     alert("a converção resultou em " + f + " grau fahrenheit")
 }
 
+
+//    tarefa 5   media aritimética de 3 notas
+
+function mediaAritimetica() {
+    let n1 = parseFloat(prompt(" qual o valor de 1ª nota? "))
+    let n2 = parseFloat(prompt(" qual o valor de 2ª nota? "))
+    let n3 = parseFloat(prompt(" qual o valor de 3ª nota? "))
+    let media = ((n1 + n2 + n3) / 5)
+    media = parseFloat(media.toFixed(2))
+    alert(" O valor da média aritimética é: " + media)
+
+}
+
+
+
