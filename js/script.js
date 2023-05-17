@@ -25,6 +25,9 @@ function dolares() {
 
 //     tarefa 4
 function celcius() {
-
+    let c = prompt("quantos graus celcius que é para converter para fahrenheit? ")
+    let f = 32 + (c * 1.8)
+    f = parseFloat(f.toFixed(2))
+    alert("a converção resultou em " + f + " grau fahrenheit")
 }
 
