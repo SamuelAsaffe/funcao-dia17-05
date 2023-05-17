@@ -24,7 +24,7 @@ function dolares() {
 }
 
 //     tarefa 4
-function bhaskara() {
+function celcius() {
 
 }
 
