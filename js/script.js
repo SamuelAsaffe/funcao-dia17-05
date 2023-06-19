@@ -2,7 +2,7 @@
 
 function circulo() {
     let raio = prompt("qual o valor do raio ?")
-    let circ = 3.14 * raio
+    let circ = 3.14 * (raio * raio)
     alert(" A área do circulo é igual a: " + circ)
 }
 
@@ -47,24 +47,24 @@ function mediaAritimetica() {
 //      tarefa 6 bhaskara
 
 function bhaskara() {
-    
-    let a,b,c,x1,x2,delta,r
+
+    let a, b, c, x1, x2, delta, r
     a = parseFloat(prompt("Digite o valor de a: "));
     b = parseFloat(prompt("Digite o valor de b: "));
     c = parseFloat(prompt("Digite o valor de c: "));
-    delta= b*b -4*a*c
-    if( delta <0 ) {
+    delta = b * b - 4 * a * c
+    if (delta < 0) {
         alert("a equação não possui raizes reais.")
     }
-    else if (delta===0) {
-        r=-b/(2*a)
+    else if (delta === 0) {
+        r = -b / (2 * a)
         alert("A equação possui uma raiz real: " + r.toFixed(2))
-        
+
     }
     else {
-        x1=(-b + Math.sqrt(delta))/(2*a)
-        x2=(-b - Math.sqrt(delta))/(2*a)
-        alert("A equação possui duas raizes reais: " +x1.toFixed(2) + " e " + x2.toFixed(2))
+        x1 = (-b + Math.sqrt(delta)) / (2 * a)
+        x2 = (-b - Math.sqrt(delta)) / (2 * a)
+        alert("A equação possui duas raizes reais: " + x1.toFixed(2) + " e " + x2.toFixed(2))
     }
 
 
